@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — TrioPixel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="./triopixel_website.html" class="brand" aria-label="TrioPixel home">
+      <div class="logo-wrap" aria-hidden="true">
+        <svg class="tp-logo" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect class="px px-1" x="2" y="2" width="12" height="12" rx="2"/>
+          <rect class="px px-2" x="16" y="2" width="12" height="12" rx="2"/>
+          <rect class="px px-3" x="30" y="2" width="12" height="12" rx="2"/>
+          <rect class="px px-4" x="2" y="16" width="12" height="12" rx="2"/>
+          <rect class="px px-5" x="16" y="16" width="12" height="12" rx="2"/>
+          <rect class="px px-6" x="30" y="16" width="12" height="12" rx="2"/>
+          <rect class="px px-7" x="2" y="30" width="12" height="12" rx="2"/>
+          <rect class="px px-8" x="16" y="30" width="12" height="12" rx="2"/>
+          <rect class="px px-9" x="30" y="30" width="12" height="12" rx="2"/>
+        </svg>
+      </div>
+      <span class="brand-name">TrioPixel</span>
+    </a>
+    <nav class="main-nav">
+      <a href="./triopixel_website.html#services">Services</a>
+      <a href="./triopixel_website.html#about">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="contact">
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main class="section contact-page" style="min-height: calc(100vh - 140px); display: grid; place-items: center;">
+    <div class="service-card" style="max-width: 720px; text-align: center; padding: 36px;">
+      <h1 style="margin: 0 0 10px; font-size: 40px;">Contact Us</h1>
+      <p class="lead" style="margin: 0 0 22px; font-size: 18px;">we are available 24/7.</p>
+      <div style="display: grid; gap: 12px; font-size: 20px; justify-items: center;">
+        <a class="btn primary" href="tel:+923001234567" style="min-width: 260px; text-align: center;">📞 +92-3140479220</a>
+        <a class="btn ghost" href="mailto:contact@triopixel.com" style="min-width: 260px; text-align: center;">✉️ </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="legal">© 2025 TrioPixel. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Optional: focus attention on the email link
+    setTimeout(function(){ var el = document.querySelector('a[href^="mailto:"]'); if (el) { el.classList.add('in'); } }, 250);
+  </script>
+</body>
+</html>
+

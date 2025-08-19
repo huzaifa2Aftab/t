@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine Learning — TrioPixel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="./triopixel_website.html" class="brand" aria-label="TrioPixel home">
+      <div class="logo-wrap" aria-hidden="true">
+        <svg class="tp-logo" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect class="px px-1" x="2" y="2" width="12" height="12" rx="2"/>
+          <rect class="px px-2" x="16" y="2" width="12" height="12" rx="2"/>
+          <rect class="px px-3" x="30" y="2" width="12" height="12" rx="2"/>
+          <rect class="px px-4" x="2" y="16" width="12" height="12" rx="2"/>
+          <rect class="px px-5" x="16" y="16" width="12" height="12" rx="2"/>
+          <rect class="px px-6" x="30" y="16" width="12" height="12" rx="2"/>
+          <rect class="px px-7" x="2" y="30" width="12" height="12" rx="2"/>
+          <rect class="px px-8" x="16" y="30" width="12" height="12" rx="2"/>
+          <rect class="px px-9" x="30" y="30" width="12" height="12" rx="2"/>
+        </svg>
+      </div>
+      <span class="brand-name">TrioPixel</span>
+    </a>
+    <nav class="main-nav">
+      <a href="./triopixel_website.html#services">Services</a>
+      <a href="./triopixel_website.html#about">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="contact">
+      <span>📞 +92-300-1234567</span>
+      <span>✉️ contact@triopixel.com</span>
+    </div>
+  </header>
+
+  <section class="hero section">
+    <div class="hero-content">
+      <h1 data-animate>Machine Learning</h1>
+      <p class="lead" data-animate>
+        We design, train, and deploy ML models that drive tangible outcomes — forecasting, ranking, NLP, and computer vision.
+      </p>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="orb"></div>
+      <div class="grid-3d"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title" data-animate>What we use</h2>
+    <div class="about-grid">
+      <div class="about-card tilt" data-animate>
+        <h3>Modeling</h3>
+        <p>scikit‑learn, XGBoost, LightGBM, PyTorch. Feature stores and experiment tracking with MLflow.</p>
+      </div>
+      <div class="about-card tilt" data-animate>
+        <h3>MLOps</h3>
+        <p>Dockerized inference services, batch/stream scoring, monitoring and retraining pipelines.</p>
+      </div>
+      <div class="about-card tilt" data-animate>
+        <h3>Deployment</h3>
+        <p>FastAPI, TorchServe, AWS Lambda/ECS, and GPU workloads where needed.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title" data-animate>Selected projects</h2>
+    <div class="services-grid">
+      <div class="service-card tilt" data-animate>
+        <h3>Demand Forecasting</h3>
+        <p>Hybrid time‑series models reducing stock‑outs by 18%.</p>
+      </div>
+      <div class="service-card tilt" data-animate>
+        <h3>Recommendation Engine</h3>
+        <p>Personalized ranking improving conversions by 12%.</p>
+      </div>
+      <div class="service-card tilt" data-animate>
+        <h3>Document NLP</h3>
+        <p>Entity extraction and summarization for back‑office automation.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-wrap small" aria-hidden="true">
+          <svg class="tp-logo" width="32" height="32" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect class="px px-1" x="2" y="2" width="12" height="12" rx="2"/>
+            <rect class="px px-2" x="16" y="2" width="12" height="12" rx="2"/>
+            <rect class="px px-3" x="30" y="2" width="12" height="12" rx="2"/>
+            <rect class="px px-4" x="2" y="16" width="12" height="12" rx="2"/>
+            <rect class="px px-5" x="16" y="16" width="12" height="12" rx="2"/>
+            <rect class="px px-6" x="30" y="16" width="12" height="12" rx="2"/>
+            <rect class="px px-7" x="2" y="30" width="12" height="12" rx="2"/>
+            <rect class="px px-8" x="16" y="30" width="12" height="12" rx="2"/>
+            <rect class="px px-9" x="30" y="30" width="12" height="12" rx="2"/>
+          </svg>
+        </div>
+        <div>
+          <div class="brand-name">TrioPixel</div>
+          <div class="tagline">AI Agents • Web • Data • ML</div>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <div><strong>📞</strong> +92-300-1234567</div>
+        <div><strong>✉️</strong> contact@triopixel.com</div>
+      </div>
+      <div class="footer-cta">
+        <a class="btn primary" href="mailto:contact@triopixel.com">Start a project</a>
+      </div>
+    </div>
+    <div class="legal">© 2025 TrioPixel. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
